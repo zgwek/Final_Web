@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(228, 246, 222);
+    text-align: center;
+}
+#grid{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    text-align: center;
+    margin-top: 0%;
+}
+img{ 
+    width: 18rem;
+    height: 10rem;
+    
+}
+h3{
+    color: antiquewhite;
+    font-size: 3rem;
+    background-color: rgb(59, 77, 59);
+    background-blend-mode:color-burn;
+    text-align: center;
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+#tryAgain{
+    font-size: 2rem;
+    color: rgb(57, 165, 139);
+}
+div{
+    text-align: center;
+}

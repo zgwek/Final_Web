@@ -1,0 +1,50 @@
+
+html {
+    scroll-behavior: smooth;
+    }
+section {
+        scroll-margin-top: 6rem;
+      }
+.navbar {
+    margin-bottom: 0;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/laptop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  accordion-item{
+    background-color: rgb(214, 111, 33);
+    color: rgb(160, 14, 14);
+  }
+
+  .accordion-button{
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  .accordion-button:not(.collapsed){
+    color: inherit;
+    background-color: rgb(214, 111, 33);
+    color: rgb(255, 255, 255);
+  }
+  .nav-item.active {
+    border-bottom: 2px solid white;
+  }
+ 
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.bi-linkedin:hover,.bi-github:hover {
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
